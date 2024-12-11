@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        Fraction.cpp \
         main.cpp
+
+HEADERS += \
+    Fraction.h
