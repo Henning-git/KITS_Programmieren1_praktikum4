@@ -1,8 +1,9 @@
 #include <iostream>
 #include "Fraction.h"
 
-int main()
-{
+using namespace std;
+
+int main() {
     // local variables!
     Fraction f1; // Standardkonstruktor mir vorbelegten Werten
     Fraction f2; // siehe oben

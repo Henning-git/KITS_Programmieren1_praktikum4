@@ -9,7 +9,9 @@ private:
 
     int gcd(int a, int b); // greadest common divider
     void cancel();
+    void cancel(Fraction &f);
     void format();
+    void format(Fraction &f);
 
 public:
     Fraction(int numerator = 0, int denominator = 1);
